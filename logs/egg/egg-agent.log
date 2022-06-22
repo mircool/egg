@@ -1,0 +1,11 @@
+2022-06-23 07:11:13,141 INFO 5280 [egg:logger] init all loggers with options: {"dir":"G:\\Test\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-06-23 07:11:13,164 INFO 5280 [egg:core] dump config after load, 15ms
+2022-06-23 07:11:13,246 INFO 5280 [egg-watcher] Start watching: ["G:\\Test\\egg\\app","G:\\Test\\egg\\config","G:\\Test\\egg\\mocks","G:\\Test\\egg\\mocks_proxy","G:\\Test\\egg\\app.js"]
+2022-06-23 07:11:13,246 INFO 5280 [egg-watcher] Start watching: "G:\\Test\\egg\\app"
+2022-06-23 07:11:13,247 INFO 5280 [egg-watcher] Start watching: "G:\\Test\\egg\\config"
+2022-06-23 07:11:13,247 INFO 5280 [egg-watcher] Start watching: "G:\\Test\\egg\\mocks"
+2022-06-23 07:11:13,247 INFO 5280 [egg-watcher] Start watching: "G:\\Test\\egg\\mocks_proxy"
+2022-06-23 07:11:13,248 INFO 5280 [egg-watcher] Start watching: "G:\\Test\\egg\\app.js"
+2022-06-23 07:11:13,248 INFO 5280 [egg-watcher:agent] watcher start success
+2022-06-23 07:11:13,262 INFO 5280 [egg:core] dump config after ready, 8ms
+2022-06-23 07:11:14,751 INFO 5280 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"G:\\Test\\egg\\app\\public","stat":{"dev":3489421108,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977348861,"size":0,"blocks":0,"atimeMs":1655939474746.3508,"mtimeMs":1655939474746.3508,"ctimeMs":1655939474746.3508,"birthtimeMs":1655939474746.3508,"atime":"2022-06-22T23:11:14.746Z","mtime":"2022-06-22T23:11:14.746Z","ctime":"2022-06-22T23:11:14.746Z","birthtime":"2022-06-22T23:11:14.746Z"},"remove":false,"isDirectory":true,"isFile":false}

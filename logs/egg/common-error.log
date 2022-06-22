@@ -1,0 +1,15 @@
+2022-06-23 07:11:17,649 ERROR 14288 [-/127.0.0.1/-/8ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (G:\Test\egg\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (G:\Test\egg\node_modules\egg\app\extend\context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (G:\Test\egg\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (G:\Test\egg\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (G:\Test\egg\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (G:\Test\egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at G:\Test\egg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (G:\Test\egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (G:\Test\egg\node_modules\koa-session\index.js:41:13)
+    at dispatch (G:\Test\egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 14288
+hostname: DESKTOP-1932J1T
+
