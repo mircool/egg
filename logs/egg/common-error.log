@@ -13,3 +13,54 @@
 pid: 14288
 hostname: DESKTOP-1932J1T
 
+2022-06-23 10:46:50,544 ERROR 11360 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (E:\Projects\test\egg\app\view\index.html) [Line 11, Column 14]
+  unknown block tag: message
+  unknown block tag: message
+    at Object._prettifyError (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:538:21)
+    at E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:327:11)
+    at E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:339:9
+    at next (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 11360
+hostname: DESKTOP-6V13IDS
+
+2022-06-23 10:47:32,673 ERROR 1256 [-/127.0.0.1/-/13ms GET /] nodejs.Template render error: (E:\Projects\test\egg\app\view\index.html) [Line 11, Column 14]
+  unknown block tag: message
+  unknown block tag: message
+    at Object._prettifyError (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:538:21)
+    at E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:327:11)
+    at E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:339:9
+    at next (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 1256
+hostname: DESKTOP-6V13IDS
+
+2022-06-23 10:47:36,532 ERROR 1256 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (E:\Projects\test\egg\app\view\index.html) [Line 11, Column 14]
+  unknown block tag: message
+  unknown block tag: message
+    at Object._prettifyError (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:538:21)
+    at E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:327:11)
+    at E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:339:9
+    at next (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (E:\Projects\test\egg\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (E:\Projects\test\egg\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 1256
+hostname: DESKTOP-6V13IDS
+
